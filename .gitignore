@@ -2,16 +2,18 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.vscode/
 # C extensions
 *.so
-
+*.ipynb
+*.json
 # Distribution / packaging
 .Python
 build/
 develop-eggs/
 dist/
 downloads/
+dataset/
 eggs/
 .eggs/
 lib/
@@ -22,6 +24,7 @@ var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
+pretrained_model/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -83,7 +86,7 @@ ipython_config.py
 
 # pyenv
 .python-version
-
+*.csv
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
